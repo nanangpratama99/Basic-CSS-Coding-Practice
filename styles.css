@@ -150,8 +150,11 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
+    margin-left: 10px;
 
 }
+
+/*============= Start Warna =============*/
 
 .warna {
     display: flex;
@@ -163,6 +166,7 @@ nav a {
     height: 50px;
     width: 50px;
     background-color: purple;
+    cursor: pointer;
     border-radius: 10px;
 }
 
@@ -171,6 +175,7 @@ nav a {
     width: 50px;
     background-color: blue;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .merah {
@@ -178,6 +183,7 @@ nav a {
     width: 50px;
     background-color: red;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .hitam {
@@ -185,6 +191,7 @@ nav a {
     width: 50px;
     background-color: black;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .coklat {
@@ -192,15 +199,21 @@ nav a {
     width: 50px;
     background-color: brown;
     border-radius: 10px;
+    cursor: pointer;
 }
 
+/*============= End Warna =============*/
+
+/*============= Kursi =============*/
 .kursi img {
     width: 500px;
-    border: 1px solid black;
+    border: 1px solid orange;
     border-radius: 20px;
     margin: 0 15px;
 }
 
+
+/*============= Deskripsi =============*/
 .deskripsi {
     display: flex;
     flex-direction: column;
@@ -216,6 +229,11 @@ nav a {
     border-style: none;
 }
 
+button:hover {
+    background-color: orangered;
+}
+
+/*============= Footer =============*/
 footer {
     text-align: center;
     background-color: orange;
@@ -251,6 +269,7 @@ li {
 
 p {
     margin-top: 10px;
+    margin-bottom: 10px;
     width: 350px;
 }
 
