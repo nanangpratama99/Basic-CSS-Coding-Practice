@@ -103,14 +103,12 @@ for (let index = 0; index < mahasiswa.length; index++) {
 console.log("Mahasiswa S2");
 
 for (let x = 0; x < 3; x++) {
-  console.log("Name : " + postGraduate[x].name);
-  console.log("Keahlian : " + postGraduate[x].mastery);
+  console.log("Name : " + postGraduate[x].name + "\n" + "Keahlian : " + postGraduate[x].mastery);
 }
 
 console.log("------------------------------")
 console.log("Mahasiswa S1");
 
 for (let y = 0; y < 7; y++) {
-  console.log("Name : " + bachelorDegree[y].name);
-  console.log("IPK : " + bachelorDegree[y].gpa);
+  console.log("Name : " + bachelorDegree[y].name + "\n" + "IPK : " + bachelorDegree[y].gpa);
 }
